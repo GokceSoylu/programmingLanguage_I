@@ -1,0 +1,1 @@
+/* girilen bir matinde girilen heceden kac tane ve nerede oldugunu bulan program */
