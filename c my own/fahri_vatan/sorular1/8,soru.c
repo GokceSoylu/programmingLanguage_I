@@ -5,7 +5,7 @@ int main()
 {
     char cumle[70];
     int i;
-    printf("bir cumle giriniz lutfen\n");
+    printf("bir cumle giriniz (tum harler buyuk harf olacak sekilde)\n");
     gets(cumle);
     printf("\n");
     for(i=0;i<strlen(cumle);i++)
