@@ -1,4 +1,4 @@
-# programming Language I
+# Programming Language I
 
 This repository exists c examples from the course I took  at Universty.
 
