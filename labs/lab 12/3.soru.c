@@ -4,7 +4,7 @@
 
 int main()
 {
-    char kelime[20],sesli_harfler[]={"euıoi"};
+    char kelime[20],sesli_harfler[]={"aeuoi"};
     int i,j,counter=0;
     printf("kelimeyi giriniz lutfen");
     gets(kelime);
