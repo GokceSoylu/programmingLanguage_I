@@ -21,6 +21,4 @@ int main()
         printf("en buyuk sayı; %d",c);
     return 0;
 
-
-
 }

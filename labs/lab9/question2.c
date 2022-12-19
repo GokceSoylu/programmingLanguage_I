@@ -12,7 +12,4 @@ int main()
     printf("foktoriyel; %d",factorial);
     return 0;
 
-
-
-
 }
