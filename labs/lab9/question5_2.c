@@ -1,26 +1,25 @@
 #include <stdio.h>
 int main()
 {
-    int i,x,y,power,function,result=0;
-    printf("lutfen iki adet sayı giriniz");
+    int i, j, x, y, power;
+    float result=0, factorial;
+    printf("lutfen bir adet sayi giriniz");
     scanf("%d",&x);
-    scanf("%d",&y);
-    for(i=0;i<=y;i++)
+    for(i=0;i<=x;i++)
     {
         power=1;
-        function=1;
-        for(int j=1;j<=i;j++)
+        factorial=1;
+        for(j=1;j<=i;j++)
         {
             power*=x;
         }
-        for(int k=1;k<=i;k++)
+        for(j=1;j<=i;j++)
         {
-            function*=k;
+            factorial*=j;
         }
-        result+=power/function;
-    
+        result+=(float)power/factorial;
     }
-    printf("denklemin sonucu; %d",result);
+    printf("denklemin sonucu = %f",result);
     return 0;
     //yup! it works ;)
 }
